@@ -1,0 +1,1238 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4{font-family: 'Great Vibes', cursive;}
+
+button{
+    background-color:white;
+    color:black;
+    border-radius:20px;
+    cursor:pointer;
+    height:50px;
+    width:200px;
+}
+button:hover{
+    background-color:#EBE9BE;
+}
+
+.cover-top{
+    background-image: url("../img/cover_top.png");
+    background-repeat: repeat-x;
+    height:100px
+    
+}
+
+.cover-bottom{
+   
+    background-image: url("../img/cover_bottom.png");
+    background-repeat: repeat-x;
+    height:50px;
+   
+    
+}
+a{
+    border:none;
+    color:#000;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+@media (min-width: 851px) {
+    .cover-content{
+        height:68vh;
+        text-align:center;
+        vertical-align:middle;
+    }
+}
+@media (min-width: 769px) and (max-width: 850px) {
+    .cover-content{
+        height:78vh;
+        text-align:center;
+        vertical-align:middle;
+    }
+}
+
+
+/* Layout untuk layar tablet */
+@media  (min-width: 481px)  and (max-width: 768px) {
+    .cover-content{
+        height:77vh;
+        text-align:center;
+        vertical-align:middle;
+    }
+
+}
+/* Layout untuk layar smartphone */
+@media (min-width: 390px) and (max-width: 480px) {
+    .cover-content{
+        height:95vh !important;
+        text-align:center;
+        vertical-align:middle;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .cover-text p{
+        font-size:22px !important;
+    }
+}
+
+
+@media (min-width: 375px) and (max-width: 389px) {
+    .cover-content {
+        height: 105vh !important;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .cover-text p{
+        font-size:22px !important;
+    }
+}
+@media (min-width: 361px) and (max-width: 374px) {
+    .cover-content {
+        height: 105vh !important;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .cover-text p{
+        font-size:22px !important;
+    }
+}
+@media (min-width: 321px) and (max-width: 360px) {
+    .cover-content {
+        height: 70vh !important;
+        text-align: center;
+        vertical-align: middle;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .cover-text p{
+        font-size:22px !important;
+    }
+}
+
+@media(min-width: 280px) and (max-width: 320px) {
+    .cover-content{
+        height:52vh !important;
+        text-align:center;
+        vertical-align:middle;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .cover-text p{
+        font-size:22px !important;
+    }
+}
+.cover-text{
+    position:relative;
+    top:2%;
+}
+
+.cover-text p{font-size:40px;}
+.cover-text h1{font-size:100px;}
+
+.section-2{
+    
+    height:100vh;
+    background-color:#abc67b;
+    padding-top:8%;
+}
+.box-1{
+    border-radius:50px;
+    background-color:#EBE9BE;
+    height:507px;
+}
+.quote-img{
+    float:left;
+    width:100px;
+}
+.quote-img{
+    float:left;
+    width:100px;
+}
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+}
+.grid-item {
+}
+
+.grid-item:nth-child(1) {
+    text-align:center; 
+    vertical-align:middle; 
+}
+
+.grid-item:nth-child(2) {
+   padding:60px 100px 0 20px;
+   font-size:22px ;
+   text-align:center;
+}
+
+/* section profile */
+.section-3{
+    background-image:url('../img/batik.jpeg');
+    background-repeat: repeat; 
+    
+    opacity: 0.9;
+    background-color:#fff9c7;
+    
+    min-height: 90vh; 
+    padding-top:100px;
+    padding-left:40px;
+    
+}
+
+
+.grid-container-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Membuat 3 kolom: dua kolom 1fr dan satu kolom di tengah 0.2fr */
+    gap:0;
+    width: 100wh;
+}
+.grid-item-profile {
+    padding: 20px;
+    border: 0px solid #ddd;       
+    text-align: center;           
+    width: 100%;               
+    box-sizing: border-box;       
+}
+
+.grid-item-profile:nth-child(1) {
+    width:30vw;
+    text-align:right;
+    padding-top:120px;
+    background-color:#abc67b; opacity: 1;
+}
+
+.grid-item-profile:nth-child(2) {
+    width:30vw;
+    background-color:#fff9c7; 
+}
+
+.grid-item-profile:nth-child(3) {
+    width:30vw;
+    padding-top:120px;
+    text-align:left;
+    background-color:#abc67b; 
+}
+
+/* acara */
+
+.section-4{
+    height:100vh;
+    background-color:#abc67b;
+    padding-top:70px;
+    padding-bottom:20px;
+}
+
+.grid-container-acara {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    background-color:#EBE9BE;
+}
+
+.grid-item-acara:nth-child(1) {
+    padding-top:80px;
+   font-size:20px;
+   text-align:center;
+   padding-left:50px;
+}
+
+.grid-item-acara:nth-child(2) {
+    text-align:center; 
+    vertical-align:middle; 
+    padding-top:80px;
+    padding-bottom:50px;
+}
+
+/* gallery */
+.section-5{
+    height:140vh;
+    background-color:#EBE9BE;
+    padding-top:30px;
+    background-image: url('../img/batik_single2.png'), url('../img/batik_single2.png');
+    background-position: top left, top right;
+    background-repeat: no-repeat, no-repeat;
+}
+.div-section5{
+    padding:20px 0;
+}
+.grid-container-gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr); 
+    background-color: #EBE9BE;
+    gap: 10px; 
+}
+.grid-item-gallery {
+    padding: 0px;
+    border: 0px solid #ddd;      
+    text-align: center;           
+    width: 100%;               
+    box-sizing: border-box;       
+}
+.sections-text{
+    text-align:center;
+    font-size:24px;
+}
+/* tamu */
+.section-6{
+    background-color:#abc67b;
+    height:90vh;
+    padding:30px
+}
+.section6-content{
+    background-color:#EBE9BE;
+    width:80%;
+    height:50%;
+    border-radius:10px;
+    position:relative;
+    left:150px;
+    top:0px;
+    padding:20px
+}
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.section6-content table th{
+    background-color:#000;
+    color:#FFF;
+}
+.section6-content table td{
+    background-color:#646b66;
+    color:#FFF;
+}
+.section6-title{
+    text-align:center;
+    font-size:50px;
+    position:relative;
+    top:20px;
+}
+/* rsvp */
+.section-7{
+    background-color:#EBE9BE;
+    height:90vh;
+    padding:30px
+}
+.title-text{
+    text-align:center;
+}
+.section-content{
+    width:50%;
+    height:80%;
+    border-radius:10px;
+    position:relative;
+    left:25%;
+    top:0px;
+    padding:20px 20px 30px 20px;;
+    background-color:#abc67b
+}
+.label{
+    padding:10px;
+}
+.forminput{
+    border:1px solid #000;
+    height:30px;
+    width:400px
+}
+/* our story */
+.section-8{
+    background-color:#abc67b;
+    height:90vh;
+    padding:30px
+}
+.section-8 .title-text{
+    text-align:center;
+    font-size:22px;
+}
+.grid-container-story {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    background-color: #646b66;
+    gap: 10px; 
+}
+.grid-item-story {
+    padding: 0px;
+    border: 1px solid #ddd;       
+    text-align: center;          
+    width: 100%;              
+    box-sizing: border-box;  
+    background-color:#EBE9BE;    
+}
+.imgstory {
+    width: 100%;         
+    height: 250px;        
+    border-radius: 50%; 
+    max-width: 200px;    
+}
+
+@media (max-width: 768px) {
+    .forminput {
+        width: 100%; 
+    }
+}
+
+@media (max-width: 480px) {
+    .label {
+        padding: 5px; 
+    }
+    
+    .forminput {
+        height: 25px; 
+        width: 100%; 
+    }
+}
+
+
+.section-9{
+    background-color:#EBE9BE;
+        height:auto;
+        padding:30px
+}
+.grid-container-hadiah{
+        border: 1px solid #ddd;       
+        text-align: center;           
+        width: 100%;              
+        box-sizing: border-box;  
+        background-color:#abc67b;
+        border-radius:50px; 
+        padding:20px 0;
+}
+.barcode img{
+    height:300px;
+}
+.btncopy{
+    width:80px;
+    height:20px;
+}
+.section-10{
+    background-color:#abc67b;
+        height:auto;
+        padding:30px
+}
+.grid-container-doa{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    background-color: #646b66;
+    gap: 10px; 
+}
+.grid-item-doa {
+    padding: 0px;
+    border: 1px solid #ddd;       
+    text-align: center;           
+    width: 100%;               
+    box-sizing: border-box;  
+    background-color:#EBE9BE;    
+}
+.forminputs{
+    border:1px solid #000;
+    height:100px;
+    width:400px
+}
+
+.box-doa{
+    padding:30px;
+}
+
+
+@media  (min-width: 481px) and (max-width: 850px) {
+    #table-tamu{
+        display:none
+    }
+    .box-1{
+        border-radius:50px;
+        background-color:#EBE9BE;
+        height:92vh;
+    }
+    .grid-item:nth-child(1) img {
+        max-width: 90%;  /* Membuat gambar tidak melebihi lebar elemen induk */
+        height: auto;     /* Menjaga rasio aspek gambar */
+        display: block;   /* Memastikan gambar sebagai elemen blok */
+        margin: 0 auto;   /* Memastikan gambar berada di tengah secara horizontal */
+    }
+
+    /* profile */
+    .section-3 {
+        padding-top: 50px;
+        padding-left: 70px; 
+       padding-bottom:50px;
+    }
+    .grid-container-profile {
+        display:grid;
+        grid-template-columns: 1fr !important;
+        
+    }
+    .grid-item-profile {
+        padding: 0px;
+       
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+
+    .grid-item-profile:nth-child(1) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+    .grid-item-profile:nth-child(2) {
+        width:90%;
+        background-color:#fff9c7; 
+    }
+    
+    .grid-item-profile:nth-child(3) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+    /* acara */
+    .section-4{
+        padding-top:0 !important;
+        padding-bottom:0px;
+        height:85vh
+    }
+    
+    .grid-container-acara {
+        display: grid;
+        grid-template-columns: 1fr ; 
+        background-color:#EBE9BE;
+    }
+    
+    .grid-item-acara:nth-child(1) {
+        padding-top:20px;
+       font-size:14px;
+       text-align:left;
+       padding-left:20px;
+       width:50%;
+    }
+    
+    .grid-item-acara:nth-child(2) {
+        text-align:left; 
+        vertical-align:middle; 
+        padding-top:20px;
+        padding-bottom:0px;
+        width:100% !important;
+    }
+    /* gallery */
+    .section-5{
+        height:110vh;
+        background-color:#EBE9BE;
+        padding-top:20px;
+        background-image: none; 
+    
+    }
+    .div-section5{
+        padding:20px 0;
+    }
+    .grid-container-gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr); 
+        background-color: #EBE9BE;
+        gap: 10px;
+    }
+    .grid-item-gallery {
+        padding: 0px;
+        border: 0px solid #ddd;       /* Contoh border untuk setiap kotak */
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+    .sections-text{
+        text-align:center;
+        font-size:24px;
+    }
+    /* story */
+    .section-8{
+        z-index:100;
+        background-color:#abc67b;
+        height:auto;
+        padding:30px
+    }
+    .section-8 .title-text{
+        text-align:center;
+        font-size:22px;
+    }
+    .grid-container-story {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        background-color: #646b66;
+        gap: 10px; 
+    }
+    .grid-item-story {
+        padding: 0px;
+        border: 1px solid #ddd;       /* Contoh border untuk setiap kotak */
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;  
+        background-color:#EBE9BE;    /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+    .imgstory {
+        width: 100%;         
+        height: 250px;        
+        border-radius: 50%;  
+        max-width: 200px;   
+    }   
+}
+
+
+@media (min-width: 375px) and (max-width: 480px) {
+    #table-tamu{
+        display:none
+    }
+    .grid-container {
+        grid-template-columns: 1fr !important;
+    }
+    .grid-item:nth-child(1) {
+        display:none
+    }
+    .box-1{
+        border-radius:50px;
+        background-color:#EBE9BE;
+        height:92vh;
+    }
+    .grid-item:nth-child(2) {
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        text-align: center; 
+        padding: 100px 50px 20px 50px;
+
+    }
+    .grid-item:nth-child(2) h2 {
+        font-size:26px !important;
+    }
+    .grid-item:nth-child(2) p {
+        font-size: 16px;
+        width: 80vw;
+    }
+
+    /* profile */
+    .section-3 {
+        padding-top: 50px; 
+        padding-left: 8px; 
+        padding-bottom:50px;
+        
+    }
+    .grid-container-profile {
+        display:grid;
+        grid-template-columns: 1fr !important;
+        
+    }
+    .grid-item-profile {
+        padding: 0px;
+       
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+
+    .grid-item-profile:nth-child(1) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+    .grid-item-profile:nth-child(2) {
+        width:90%;
+        background-color:#fff9c7; 
+    }
+    
+    .grid-item-profile:nth-child(3) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+
+    /* acara */
+    .section-4{
+        padding-top:0 !important;
+        background-color:#000;
+        padding-bottom:0px;
+        height:118vh;
+    }
+    
+    .grid-container-acara {
+        display: grid;
+        grid-template-columns: 1fr ; 
+        background-color:#EBE9BE;
+    }
+    
+    .grid-item-acara:nth-child(1) {
+        padding-top:20px;
+       font-size:14px;
+       text-align:left;
+       padding-left:20px;
+       width:50%;
+    }
+    
+    .grid-item-acara:nth-child(2) {
+        text-align:center; 
+        vertical-align:middle; 
+        padding-top:20px;
+        padding-bottom:0px;
+    }
+    /* gallery */
+    .section-5{
+        height:110vh;
+        background-color:#EBE9BE;
+        padding-top:20px;
+        background-image: none; 
+    
+    }
+    .div-section5{
+        padding:20px 0;
+    }
+    .grid-container-gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        background-color: #EBE9BE;
+        gap: 10px; 
+    }
+    .grid-item-gallery {
+        padding: 0px;
+        border: 0px solid #ddd;       /* Contoh border untuk setiap kotak */
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+    .sections-text{
+        text-align:center;
+        font-size:24px;
+    }
+    /* story */
+    .section-8{
+        z-index:100;
+        background-color:#abc67b;
+        height:auto;
+        padding:30px
+    }
+    .section-8 .title-text{
+        text-align:center;
+        font-size:22px;
+    }
+    .grid-container-story {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        background-color: #646b66;
+        gap: 10px;
+    }
+    .grid-item-story {
+        padding: 0px;
+        border: 1px solid #ddd;       /* Contoh border untuk setiap kotak */
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;  
+        background-color:#EBE9BE;    /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+    .imgstory {
+        width: 100%;   
+        height: 250px;        
+        border-radius: 50%; 
+        max-width: 200px;   
+    }
+
+}
+@media (min-width: 361px) and (max-width: 374px) {
+    #table-tamu{
+        display:none
+    }
+    .grid-container {
+        grid-template-columns: 1fr !important;
+    }
+    .grid-item:nth-child(1) {
+        display:none
+    }
+    .box-1{
+        border-radius:50px;
+        background-color:#EBE9BE;
+        height:92vh;
+    }
+    .grid-item:nth-child(2) {
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        text-align: center; 
+        padding: 100px 50px 20px 50px;
+
+    }
+    .grid-item:nth-child(2) h2 {
+        font-size:26px !important;
+    }
+    .grid-item:nth-child(2) p {
+        font-size: 16px;
+        width: 80vw;
+    }
+    /* profile */
+    .section-3 {
+        padding-top: 50px; 
+        padding-left: 30px; 
+    }
+    .grid-container-profile {
+        display:grid;
+        grid-template-columns: 1fr !important;
+        
+    }
+    .grid-item-profile {
+        padding: 0px;
+       
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+
+    .grid-item-profile:nth-child(1) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+    .grid-item-profile:nth-child(2) {
+        width:90%;
+        background-color:#fff9c7; 
+    }
+    
+    .grid-item-profile:nth-child(3) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+}
+@media (min-width: 321px) and (max-width: 360px) {
+    #table-tamu{
+        display:none
+    }
+    .grid-container {
+        grid-template-columns: 1fr !important;
+    }
+    .grid-item:nth-child(1) {
+        display:none
+    }
+    .box-1{
+        border-radius:50px;
+        background-color:#EBE9BE;
+        height:92vh;
+    }
+    .grid-item:nth-child(2) {
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        text-align: center; 
+        padding: 100px 50px 20px 50px;
+
+    }
+    .grid-item:nth-child(2) h2 {
+        font-size:26px !important;
+    }
+    .grid-item:nth-child(2) p {
+        font-size: 16px;
+        width: 80vw;
+    }
+
+    /* profile */
+    .section-3 {
+        padding-top: 50px; 
+        padding-left: 0px; 
+        padding-bottom:50px;
+        
+    }
+    .grid-container-profile {
+        display:grid;
+        grid-template-columns: 1fr !important;
+        
+    }
+    .grid-item-profile {
+        padding: 0px;
+       
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+
+    .grid-item-profile:nth-child(1) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+    .grid-item-profile:nth-child(2) {
+        width:90%;
+        background-color:#fff9c7; 
+    }
+    
+    .grid-item-profile:nth-child(3) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+    /* acara */
+    .section-4{
+        padding-top:0 !important;
+        background-color:#000;
+        padding-bottom:0px;
+        height:110vh;
+    }
+    
+    .grid-container-acara {
+        display: grid;
+        grid-template-columns: 1fr ; 
+        background-color:#EBE9BE;
+    }
+    
+    .grid-item-acara:nth-child(1) {
+        padding-top:20px;
+       font-size:14px;
+       text-align:left;
+       padding-left:20px;
+       width:50%;
+    }
+    
+    .grid-item-acara:nth-child(2) {
+        text-align:center; 
+        vertical-align:middle; 
+        padding-top:20px;
+        padding-bottom:0px;
+    }
+    
+    /* gallery */
+    .section-5{
+        height:110vh;
+        background-color:#EBE9BE;
+        padding-top:20px;
+        background-image: none; 
+    
+    }
+    .div-section5{
+        padding:20px 0;
+    }
+    .grid-container-gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        background-color: #EBE9BE;
+        gap: 10px;
+    }
+    .grid-item-gallery {
+        padding: 0px;
+        border: 0px solid #ddd;       /* Contoh border untuk setiap kotak */
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+    .sections-text{
+        text-align:center;
+        font-size:24px;
+    }
+    /* story */
+    .section-8{
+        z-index:100;
+        background-color:#abc67b;
+        height:auto;
+        padding:30px
+    }
+    .section-8 .title-text{
+        text-align:center;
+        font-size:22px;
+    }
+    .grid-container-story {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        background-color: #646b66;
+        gap: 10px;
+    }
+    .grid-item-story {
+        padding: 0px;
+        border: 1px solid #ddd;       /* Contoh border untuk setiap kotak */
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;  
+        background-color:#EBE9BE;    /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+    .imgstory {
+        width: 100%;         
+        height: 250px;       
+        border-radius: 50%;
+        max-width: 200px;  
+    }
+
+}
+@media(min-width: 280px) and (max-width: 320px) {
+    #table-tamu{
+        display:none
+    }
+    .grid-container {
+        grid-template-columns: 1fr !important;
+    }
+    .grid-item:nth-child(1) {
+        display:none
+    }
+    .box-1{
+        border-radius:50px;
+        background-color:#EBE9BE;
+        height:92vh;
+    }
+    
+     .grid-item:nth-child(2) {
+        font-size: 22px;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        justify-content: center;
+        text-align: center; 
+        padding: 50px 50px 20px 50px;
+
+    }
+    .grid-item:nth-child(2) h2 {
+        font-size:24px !important;
+    }
+    .grid-item:nth-child(2) p {
+        font-size: 14px;
+        width: 80vw;
+    }
+
+    /* profile */
+    .section-3 {
+        padding-top: 50px; 
+        padding-left: 0px; 
+    }
+    .grid-container-profile {
+        display:grid;
+        grid-template-columns: 1fr !important;
+        
+    }
+    .grid-item-profile {
+        padding: 0px;
+       
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+
+    .grid-item-profile:nth-child(1) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+    .grid-item-profile:nth-child(2) {
+        width:90%;
+        background-color:#fff9c7; 
+    }
+    
+    .grid-item-profile:nth-child(3) {
+        width:90%;
+        background-color:#abc67b; 
+        opacity: 1;
+        text-align:left;
+        padding:20px;
+    }
+
+
+    /* acara */
+    .section-4{
+        padding-top:0 !important;
+        background-color:#000;
+        padding-bottom:20px;
+        height:150vh;
+    }
+    
+    .grid-container-acara {
+        display: grid;
+        grid-template-columns: 1fr ; 
+        background-color:#EBE9BE;
+    }
+    
+    .grid-item-acara:nth-child(1) {
+        padding-top:20px;
+       font-size:14px;
+       text-align:left;
+       padding-left:20px;
+       width:50%;
+    }
+    
+    .grid-item-acara:nth-child(2) {
+        text-align:center; 
+        vertical-align:middle; 
+        padding-top:20px;
+        padding-bottom:0px;
+    }
+
+    /* gallery */
+    .section-5{
+        height:110vh;
+        background-color:#EBE9BE;
+        padding-top:20px;
+        background-image: none; 
+    
+    }
+    .div-section5{
+        padding:20px 0;
+    }
+    .grid-container-gallery {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        background-color: #EBE9BE;
+        gap: 10px; 
+    }
+    .grid-item-gallery {
+        padding: 0px;
+        border: 0px solid #ddd;       /* Contoh border untuk setiap kotak */
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;       /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+    .sections-text{
+        text-align:center;
+        font-size:24px;
+    }
+    /* rsvp */
+    .section-7{
+        background-color:#EBE9BE;
+        height:130vh;
+        padding:30px 60px 30px 30px;
+        z-index:1;
+    }
+    /* story */
+    .section-8{
+        z-index:100;
+        background-color:#abc67b;
+        height:auto;
+        padding:30px
+    }
+    .section-8 .title-text{
+        text-align:center;
+        font-size:22px;
+    }
+    .grid-container-story {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #646b66;
+        gap: 10px; 
+    }
+    .grid-item-story {
+        padding: 0px;
+        border: 1px solid #ddd;       /* Contoh border untuk setiap kotak */
+        text-align: center;           /* Memusatkan teks di dalam kotak */
+        width: 100%;               /* Mengatur tinggi kotak proporsional (30% dari tinggi viewport) */
+        box-sizing: border-box;  
+        background-color:#EBE9BE;    /* Mengatur box-sizing agar padding dan border terhitung dalam ukuran */
+    }
+    .imgstory {
+        width: 100%;        
+        height: 250px;       
+        border-radius: 50%;  
+        max-width: 200px;   
+    }
+
+}
+
+
+
+.navigasi {
+    display: inline-block;
+    background-color: #abc67b;
+    position: fixed;
+    bottom: 20px;
+    left: 22%;
+    right: 10%;
+    padding: 10px;
+    border-radius: 5px; /* Optional: for rounded corners */
+    width:118vh;
+    text-align:center
+}
+
+.nav-list {
+    display: block;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+.nav-list li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.nav-list li a {
+    text-decoration: none; 
+    color: #000; 
+    height:20px;
+}
+
+@media (max-width: 768px) {
+    .navigasi {
+        left: 5%;
+        right: 5%;
+        width: auto; 
+        padding: 5px;
+    }
+    .nav-list {
+        display: none; 
+        justify-content: space-evenly;
+    }
+    .nav-list li {
+        display: block; 
+        margin: 10px 0; 
+    }
+
+    .nav-list li a {
+        font-size: 14px; 
+        padding: 10px;
+        display: block;
+    }
+}
+#tombol-musik{
+    background-color:#abc67b;
+    border-radius:100%;
+    position:Fixed;
+    bottom:20px;
+    left:20px;
+    padding:20px;
+}
+
+#tombol-musik img{
+    width:20px;
+    height:20px;
+}
+
+#kotak-musik{
+    display:block;
+}
